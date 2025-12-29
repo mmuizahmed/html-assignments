@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form | Assignment</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="post">
+        <h1>Student Registration Form</h1>
+        <section>
+          <label for="fname">Student name :</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Last Name"
+            required
+          />
+        </section>
+        <br />
+
+        <section>
+          <label for="fathername">Father's name :</label>
+          <input type="text" id="fathername" name="fathername" required />
+        </section>
+        <br />
+
+        <section>
+          <label>Date of birth :</label>
+          <input type="date" />
+        </section>
+        <br />
+
+        <section>
+          <label for="mobile">Mobile no. :</label>
+          <input type="text" value="+91" size="3" readonly />
+          <input type="tel" id="mobile" name="mobile" required />
+        </section>
+        <br />
+
+        <section>
+          <label for="email">Email id :</label>
+          <input type="email" id="email" name="email" required />
+        </section>
+        <br />
+
+        <section>
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" required />
+        </section>
+        <br />
+
+        <section>
+          <label>Gender :</label>
+          <input type="radio" name="gender" value="male" /> Male
+          <input type="radio" name="gender" value="female" /> Female
+        </section>
+        <br />
+
+        <section>
+          <label>Department :</label>
+          <input type="checkbox" value="CSE" /> CSE
+          <input type="checkbox" value="IT" /> IT
+          <input type="checkbox" value="ECE" /> ECE
+          <input type="checkbox" value="Civil" /> Civil
+          <input type="checkbox" value="Mech" /> Mech
+        </section>
+        <br />
+
+        <section>
+          <label for="course">Course :</label>
+          <select id="course" name="course">
+            <option value="B.Tech" selected>B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="Diploma">Diploma</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+          </select>
+        </section>
+        <br />
+
+        <section>
+          <label for="photo">Student photo :</label>
+          <input type="file" id="photo" name="photo" accept="image/*" />
+        </section>
+        <br />
+
+        <section>
+          <label for="city">City :</label>
+          <input type="text" id="city" name="city" />
+        </section>
+        <br />
+
+        <section>
+          <label for="address">Address :</label><br />
+          <textarea id="address" name="address" rows="5" cols="50"></textarea>
+        </section>
+        <br />
+
+        <section>
+          <button type="submit">Register</button>
+        </section>
+      </form>
+      <br />
+      <br />
+      <br />
+    </main>
+    <footer>
+      <p>&copy; 2025 Form Assignment</p>
+    </footer>
+  </body>
+</html>
